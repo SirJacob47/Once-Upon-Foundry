@@ -3,7 +3,7 @@
   "title": "Once Upon",
   "description": "A custom Foundry VTT system for the Once Upon RPG.",
   "version": "0.1.0",
-  "author": "Your Name",
+  "author": "SirJacob47",
   "esmodules": ["module/onceupon.js"],
   "styles": ["module/styles/onceupon.css"],
   "languages": [
@@ -19,5 +19,8 @@
     "version": "0.1.0"
   },
   "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "11"
+  "compatibleCoreVersion": "11",
+  "manifest": "https://raw.githubusercontent.com/SirJacob47/Once-Upon-Foundry/main/system.json",
+  "download": "https://github.com/SirJacob47/Once-Upon-Foundry/archive/refs/heads/main.zip",
+  "url": "https://github.com/SirJacob47/Once-Upon-Foundry"
 }
