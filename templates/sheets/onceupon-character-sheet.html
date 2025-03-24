@@ -1,0 +1,28 @@
+<form class="sheet onceupon" autocomplete="off">
+  <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Character Name"/></h1>
+
+  <hr/>
+
+  <h2>Belief</h2>
+  <input type="number" name="data.belief" value="{{data.data.belief}}" />
+
+  <h2>Methods</h2>
+  <div class="methods">
+    {{#each data.data.methods as |value key|}}
+      <label>{{key}}: <input type="number" name="data.methods.{{key}}" value="{{value}}" /></label><br/>
+    {{/each}}
+  </div>
+
+  <h2>Competencies</h2>
+  <div class="competencies">
+    {{#each data.data.competencies as |value key|}}
+      <label>{{key}}: <input type="number" name="data.competencies.{{key}}" value="{{value}}" /></label><br/>
+    {{/each}}
+  </div>
+
+  <h2>Plot Devices</h2>
+  <textarea name="data.plotDevices">{{data.data.plotDevices}}</textarea>
+
+  <h2>Problems</h2>
+  <textarea name="data.problems">{{data.data.problems}}</textarea>
+</form>
