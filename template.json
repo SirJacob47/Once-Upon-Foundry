@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "type": "character",
+  "data": {
+    "belief": 0,
+    "methods": {
+      "boldly": 1,
+      "cunningly": 1,
+      "creatively": 1,
+      "passionately": 1,
+      "cleverly": 1
+    },
+    "competencies": {
+      "observe": 1,
+      "survive": 1,
+      "move": 1,
+      "deceive": 1,
+      "charm": 1,
+      "convince": 1
+    },
+    "plotDevices": [],
+    "problems": []
+  }
+}
