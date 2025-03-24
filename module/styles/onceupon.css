@@ -1,0 +1,29 @@
+/* === ONCE UPON SYSTEM STYLES === */
+
+/* 🎨 Color Palette */
+:root {
+  --primary-bg: #fef6e4;
+  --accent-color: #f582ae;
+  --text-dark: #001858;
+  --text-light: #fef6e4;
+  --border-color: #8bd3dd;
+}
+
+.sheet {
+  background-color: var(--primary-bg);
+  color: var(--text-dark);
+  border: 2px solid var(--border-color);
+  padding: 1rem;
+  font-family: 'Bookman Old Style', serif;
+}
+
+h1, h2, h3 {
+  color: var(--accent-color);
+}
+
+input, select {
+  border: 1px solid var(--border-color);
+  padding: 4px;
+  background-color: #ffffff;
+  color: var(--text-dark);
+}
