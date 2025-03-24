@@ -1,0 +1,23 @@
+{
+  "name": "onceupon",
+  "title": "Once Upon",
+  "description": "A custom Foundry VTT system for the Once Upon RPG.",
+  "version": "0.1.0",
+  "author": "Your Name",
+  "esmodules": ["module/onceupon.js"],
+  "styles": ["module/styles/onceupon.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "system": {
+    "id": "onceupon",
+    "version": "0.1.0"
+  },
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11"
+}
